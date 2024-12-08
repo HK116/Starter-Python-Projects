@@ -1,3 +1,22 @@
+"""
+A simple mad libs game where users provide words to complete a story.
+
+Functions:
+- get_input(word_type: str): Prompts the user to enter a word of the specified type and returns it.
+- choose_story(): Displays available story titles, prompts the user to choose one, and returns the corresponding number.
+- fillout_madlibs(words: List): Collects user inputs, selects a story, and fills in the blanks using the provided words.
+
+Global Variables:
+- titles: A dictionary containing story titles indexed by numbers.
+- stories: A dictionary containing story templates with placeholders for words.
+
+How to Play:
+1. The program prompts the user to enter nouns and adjectives.
+2. The user selects a story from the displayed list.
+3. The program fills in the story using the entered words and prints the completed mad lib.
+"""
+
+
 from typing import List
 
 def get_input(word_type: str):
@@ -5,10 +24,10 @@ def get_input(word_type: str):
     return user_input
 
 # Get input for the mad lib
-noun1: str = get_input("noun")
-noun2: str = get_input("noun")
-adjective1: str = get_input("adjective")
-adjective2: str = get_input("adjective")
+noun1: str = get_input("noun (singular)")
+noun2: str = get_input("noun (singular)")
+adjective1: str = get_input("adjective (absolute degree - e.g. happy instead of happier or happiest)")
+adjective2: str = get_input("adjective (absolute degree - e.g. happy instead of happier or happiest)")
 
 # Define the title of the stories
 titles: dict = {
