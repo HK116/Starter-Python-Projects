@@ -1,3 +1,14 @@
+"""
+Number guessing game:
+
+the program generates a random 3-digit number with unique digits.  
+the player must guess the number by entering a valid 3-digit guess.  
+after each incorrect guess, the program provides a hint:  
+whether the target number is higher or lower than the guess.  
+the game continues until the player guesses the correct number  
+or types 'quit' or 'exit' to leave the game.
+"""
+
 import random
 
 # generates a random number with unique digits from 100 to 999
