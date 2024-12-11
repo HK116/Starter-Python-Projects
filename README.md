@@ -12,6 +12,9 @@ a collection of beginner-friendly python projects to practice core programming c
 2. **guess_the_num.py**  
    a number guessing game where the computer picks a 3-digit number with unique digits, and you try to guess it with hints given after each attempt.
 
+3. **dice_roll.py**  
+   simulates rolling six-sided dice. enter the number of dice to roll, and see random results. type "exit" to quit the game.
+
 ---
 
 ## how to run
@@ -21,6 +24,6 @@ a collection of beginner-friendly python projects to practice core programming c
    git clone https://github.com/HK116/Starter-Python-Projects.git
    cd Starter-Python-Projects
 2. Run a specific project:
-  ```python3 mad_libs.py``` or
+  ```python3 mad_libs.py```
   ```python3 guess_the_num.py```
-
+  ```python3 dice_roll.py```
