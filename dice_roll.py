@@ -12,6 +12,7 @@ def roll_dice(value: int = 2) -> list[int]:
     
     return [randint(1, 6) for _ in range(value)]
 
+
 def main():
     """Main loop for user interaction, allowing repeated dice rolls or exiting the program."""
 
@@ -24,7 +25,10 @@ def main():
 
         try:
             num_dice = int(user_input)
-            print(roll_dice(num_dice))
+            rolls = roll_dice(num_dice)
+
+            print(*rolls, sep=", ", end=" ")
+            print(f"({sum(rolls)})")
 
         except ValueError:
             print("Please a valid value. or 'exit' to quit.")
