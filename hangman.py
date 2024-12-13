@@ -32,6 +32,8 @@ def get_user_guess(guessed: str) -> str:
         guess: str = input("Enter a letter: ").lower()
         if guess in guessed:
             print(f"You already guessed {guess}. Try another letter!")
+        elif len(guess) > 1:
+            print("Please enter a single letter!")
         else:
             return guess
 
