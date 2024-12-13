@@ -1,0 +1,49 @@
+.ve# python files
+*.py[cod]
+__pycache__/
+*.so
+
+# virtual environments
+*/.venv
+venv/
+env/
+
+# jupyter notebooks
+.ipynb_checkpoints
+
+# distribution files
+build/
+dist/
+*.egg-info/
+
+# environment variables
+.env
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+
+# logs and debug files
+*.log
+*.out
+*.err
+
+# coverage & testing
+.coverage
+.tox/
+htmlcov/
+.nox/
+
+# caching & temporary files
+.cache/
+*.tmp
+*.temp
+*.bak
+
+# docker files
+docker-compose.override.yml
+
+# misc
+*.DS_Store
+Thumbs.db
