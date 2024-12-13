@@ -33,6 +33,4 @@ A Collection of Beginner-Friendly Python Projects to Practice Core Programming C
    git clone https://github.com/HK116/Starter-Python-Projects.git
    cd Starter-Python-Projects
 2. Run a specific project:
-  ```python3 mad_libs.py```
-  ```python3 guess_the_num.py```
-  ```python3 dice_roll.py```
+  ```python3 <file_name.py>```
