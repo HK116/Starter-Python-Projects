@@ -1,6 +1,6 @@
 # Starter Python Projects
 
-A Collection of Beginner-Friendly Python Projects to Practice Core Programming Concepts Like Input Handling, Conditionals, Loops, and Functions.
+A Collection of Beginner-Friendly Python Projects to Practice Core Programming Concepts Like Input Handling, Conditionals, Loops, and Functions and More.
 
 ---
 
