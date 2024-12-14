@@ -8,7 +8,7 @@ Users can specify QR code size, padding, and color settings.
 """
 import qrcode
 
-class GecnerateQR:
+class GenerateQR:
     def __init__(self, size: int, padding: int):
         """Initialize the QR code generator with size and padding."""
         self.qr = qrcode.QRCode(box_size=size, border=padding)
