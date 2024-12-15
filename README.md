@@ -24,6 +24,14 @@ A Collection of Beginner-Friendly Python Projects to Practice Core Programming C
 6. **rock_paper_scissors.py**
    This script allows a user to play rock, paper, scissors against the computer. It keeps track of wins, losses, and ties until the user exits the game.
 
+7. **QR_Code_gen**
+   This script defines a class `GenerateQR` that can generate and save QR codes based on user input. Users can specify QR code size, padding, and color settings.
+
+   Dependencies to install: qrcode, Pillow
+
+8. **website_checker.py**
+   This script reads a CSV of website URLs, checks their HTTP status by sending a GET request, and prints a description of the response (e.g., OK, Not Found). It ensures all URLs are properly formatted with 'https://', and uses a random Firefox user agent for the requests.
+
 ---
 
 ## How to run
