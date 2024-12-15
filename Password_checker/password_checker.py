@@ -8,9 +8,6 @@ seems unique if no match is found. The script ensures the user enters a valid, n
 def check_password(password: str):
     """
     Checks if the given password is in a list of common passwords and prints the result.
-
-    Args:
-        password (str): The password to be checked against the common passwords list.
     """
     # Open the file containing common passwords and read the list
     with open('passwords.txt', 'r') as file:

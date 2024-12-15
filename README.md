@@ -29,8 +29,11 @@ A Collection of Beginner-Friendly Python Projects to Practice Core Programming C
 
    Dependencies to install: qrcode, Pillow
 
-8. **website_checker.py**
+8. **Website_checker**
    This script reads a CSV of website URLs, checks their HTTP status by sending a GET request, and prints a description of the response (e.g., OK, Not Found). It ensures all URLs are properly formatted with 'https://', and uses a random Firefox user agent for the requests.
+
+9. **Password_checker**
+   This script checks how common a given password is by comparing it against a list of common passwords. It reads a file containing popular passwords and returns the rank of the password if it matches, or informs the user that the password seems unique if no match is found. The script ensures the user enters a valid, non-empty password.
 
 ---
 
