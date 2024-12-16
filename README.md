@@ -43,6 +43,9 @@ A Collection of Beginner-Friendly Python Projects to Practice Core Programming C
    This script downloads images from provided URLs. It identifies image extensions and saves them with user-defined or automatic names in a specified folder.
    CAUTION: Ensure you have permission to download images from external sources.
 
+12. **TAX_calculator**
+   This script calculates the net income for employees in Poland based on gross salary. Deductions include social security contributions (ZUS), health insurance, and income tax. The calculation follows Polish tax regulations as of the current year.
+
 
 ---
 
