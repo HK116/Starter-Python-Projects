@@ -52,7 +52,7 @@ def brute_force(word: str, length: int, has_digits: bool = False, has_symbols: b
 def main():
     """Main execution function for the password guessing process."""
     print("Searching...")
-    password: str = 'henok'
+    password: str = 'guess'
 
     # Start timing the process
     start_time: float = time.perf_counter()
