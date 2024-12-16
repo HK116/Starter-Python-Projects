@@ -35,6 +35,15 @@ A Collection of Beginner-Friendly Python Projects to Practice Core Programming C
 9. **Password_checker**
    This script checks how common a given password is by comparing it against a list of common passwords. It reads a file containing popular passwords and returns the rank of the password if it matches, or informs the user that the password seems unique if no match is found. The script ensures the user enters a valid, non-empty password.
 
+10. **Brute_force_text** - DO NOT TRY THIS ON REAL WEBSITES! EDUCATIONAL PURPOSE ONLY
+   This script demonstrates common word matching and brute-force password guessing. 
+   CAUTION: Unauthorized password guessing can be illegal and is strictly prohibited. Use this script for educational and learning purposes only.
+
+11. **Image_generator**
+   This script downloads images from provided URLs. It identifies image extensions and saves them with user-defined or automatic names in a specified folder.
+   CAUTION: Ensure you have permission to download images from external sources.
+
+
 ---
 
 ## How to run
@@ -43,5 +52,5 @@ A Collection of Beginner-Friendly Python Projects to Practice Core Programming C
    ```bash
    git clone https://github.com/HK116/Starter-Python-Projects.git
    cd Starter-Python-Projects
-2. Run a specific project:
+2. Run a specific project after installing dependencies if there are any:
   ```python3 <file_name.py>```
