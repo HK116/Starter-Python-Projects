@@ -81,8 +81,8 @@ class TaxCalculator:
             tax_free_allowance = 300  # Monthly allowance in PLN
             deductible_health = health_insurance_base * 0.0775
             taxable_income = max(0, health_insurance_base - tax_free_allowance)
-            income_tax = (taxable_income * 0.12 if taxable_income <= 10000 
-                          else 10000 * 0.12 + (taxable_income - 10000) * 0.32)
+            income_tax = (taxable_income * 0.12 if taxable_income <= 12000 
+                          else 12000 * 0.12 + (taxable_income - 12000) * 0.32)
             income_tax -= deductible_health
             income_tax = max(0, income_tax)
 
